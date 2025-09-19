@@ -39,16 +39,13 @@
 - **Gradient Boosting (Neural Network) For Neurology:**  
    - Accuracy: 73% | F1-score: 0.73
 
-     📌 **Conclusion:**
+  📌 **Conclusion:**
      
 - In Preventive Health Services, negative health behaviors—like smoking, obesity, and excessive drinking—emerged as the top predictors of poor health rankings. On the flip side, better access to primary care, lower preventable hospitalization rates, and higher Medicare user coverage helped counties rank better.
   
 - In the Neurology domain, different predictors emerged:
 - A higher number of primary care physicians was associated with better rankings—highlighting the importance of access.
 - Meanwhile, more uninsured adults and a higher share of dual-eligible users were linked to worse rankings, likely reflecting socioeconomic disadvantage, Counties with higher death rates, more adults in fair or poor health, and higher smoking or obesity levels also tended to fall into the lower quartiles.
-
-- 
-
 
 ---
 
