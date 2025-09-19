@@ -30,7 +30,7 @@
 - **Gradient Boosting (Neural Network) For PHS:**  
   - Accuracy: 78.2% | F1-score: 0.782
  
-  - **Logistic Regression For Neurology:**  
+- **Logistic Regression For Neurology:**  
   - Accuracy: 70% | F1-score: 0.70
 
 - **Random Forest For Neurology:**  
