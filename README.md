@@ -1,21 +1,54 @@
-# Medicare-Market-Saturation-Utilization-Analysis
+# Medicare Market Saturation Utilization Analysis
 
 📌 **Overview**
-This project analyzes Medicare market saturation and utilization patterns using statistical modeling and data visualization. The goal is to identify trends and insights in healthcare provider markets, focusing on Neurology and PHS (Primary Health Services).
+
+- This project explores how Medicare market saturation and utilization influence county-level health behavior rankings across two healthcare service domains: Neurology and Preventive Health Services (PHS). Leveraging logistic regression and ensemble machine learning models, the analysis identifies key predictors of poor health outcomes using data from County Health Rankings and Medicare. 
+- Rural areas face a 30% lower provider-to-patient ratio compared to urban counties.
+- Understanding the correlation between Medicare market saturation and county health outcomes can inform policy decisions and resource allocation.
+
+
 
 ---
 
 🛠️ **Tools & Technologies**
-- Jupyter Notebook (Python)
-- Power BI (.pbix files)
-- PDF Reporting
+
+- Exploratory Data Analysis (EDA): Initial data exploration to understand distributions, missing values, and potential correlations. 
+- Correlation and Causation Analysis: Identifying relationships between variables and determining causative factors. 
+- Model Building: Constructing logistic regression for interpretability and Random Forest/Gradient Boosting models for predictive accuracy. 
+- Dashboard Development: Deploying a Power BI dashboard for interactive, on-demand access to insights for health administrators and field operators.
 
 ---
 
 📊 **Key Results**
-- Developed predictive models for Neurology and PHS market saturation.
-- Generated interactive visualizations for provider data analysis.
-- Produced a comprehensive report summarizing findings and recommendations.
+
+- **Logistic Regression For PHS:**  
+  - Accuracy: 76% | F1-score: 0.76
+  
+- **Random Forest For PHS:**  
+  - Accuracy: 78% | F1-score: 0.78
+
+- **Gradient Boosting (Neural Network) For PHS:**  
+  - Accuracy: 78.2% | F1-score: 0.782
+ 
+  - **Logistic Regression For Neurology:**  
+  - Accuracy: 70% | F1-score: 0.70
+
+- **Random Forest For Neurology:**  
+   - Accuracy: 76% | F1-score: 0.76
+     
+- **Gradient Boosting (Neural Network) For Neurology:**  
+   - Accuracy: 73% | F1-score: 0.73
+
+     📌 **Conclusion:**
+     
+- In Preventive Health Services, negative health behaviors—like smoking, obesity, and excessive drinking—emerged as the top predictors of poor health rankings. On the flip side, better access to primary care, lower preventable hospitalization rates, and higher Medicare user coverage helped counties rank better.
+  
+- In the Neurology domain, different predictors emerged:
+- A higher number of primary care physicians was associated with better rankings—highlighting the importance of access.
+- Meanwhile, more uninsured adults and a higher share of dual-eligible users were linked to worse rankings, likely reflecting socioeconomic disadvantage, Counties with higher death rates, more adults in fair or poor health, and higher smoking or obesity levels also tended to fall into the lower quartiles.
+
+- 
+
 
 ---
 
